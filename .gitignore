@@ -1,0 +1,148 @@
+# /.gitignore
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+
+# JetBrains Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Test results
+[Tt]est[Rr]esult*/
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NUnit
+TestResult.xml
+nunit-*.xml
+
+# MSTest
+*.testsettings
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# .NET tools
+.dotnet/tools/
+dotnet-tools.json
+
+# Publish output
+[Pp]ublish/
+publish/
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+*.mdf
+*.ldf
+
+# SQL Server files
+*.ndf
+
+# Local DB
+App_Data/
+
+# IIS Express
+iisexpress/
+*.vspscc
+*.vssscc
+
+# Azure / local secrets
+secrets.json
+appsettings.Development.local.json
+appsettings.Local.json
+
+# Microsoft User Secrets
+**/secrets.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# Generated files
+Generated/
+*.generated.cs
+
+# Coverage / reports
+coverage/
+coverage-report/
+coverlet/
+lcov.info
+
+# Package lock files
+packages.lock.json
+
+# Node-based frontend artifacts inside the solution
+node_modules/
+dist/
+build/
+
+# Blazor / WebAssembly / static asset tooling
+wwwroot/lib/
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Runtime files
+*.pid
+*.seed
+
+# Certificates
+*.pfx
+*.snk
+
+# Local emulator / tooling folders
+.azurite/
+.azure/

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>migrate-mongo</AssemblyName>
+    <RootNamespace>MigrateMongo.Cli</RootNamespace>
+    <!-- Enables: dotnet tool install -g MigrateMongo.Cli -->
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>migrate-mongo</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MigrateMongo\MigrateMongo.csproj" />
+  </ItemGroup>
+
+</Project>
